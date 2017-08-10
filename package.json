@@ -1,0 +1,17 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./app/converter.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0"
+  }
+}
